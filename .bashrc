@@ -93,6 +93,12 @@ if [ -f "${HOME}/.bash_aliases" ]; then
   source "${HOME}/.bash_aliases"
 fi
 
+# IF ~/.inputrc does not exist yet: first incldue the original /etc/inputrc
+# so that it does not get overridded
+if [ ! -a ~/.inputrc  ]; then
+	echo '$include /etc/inputrc' > ~/.inputrc ;
+fi
+
  ############################################################################
 #                                                                            #
 #                          Print Current Git Branch                          #
