@@ -96,7 +96,8 @@ fi
 # IF ~/.inputrc does not exist yet: first incldue the original /etc/inputrc
 # so that it does not get overridded
 if [ ! -a ~/.inputrc  ]; then
-	echo '$include /etc/inputrc' > ~/.inputrc ;
+	echo '$include /etc/inputrc' > $(HOME)/.inputrc ;
+	source $(HOME)/.inputrc
 fi
 
  ############################################################################
