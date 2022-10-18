@@ -17,6 +17,7 @@
 14. Install jedi with pip 'pip install jedi'
 15. You may install python with 'CocInstall coc-python' inside of nvim now
 16. For snippets, you will have to manually do those.
+17. For additional help, run ':checkhealth' in neovim
 
 ## Additional Add-ons for C/C++ Development
 
