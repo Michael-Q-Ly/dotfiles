@@ -36,6 +36,7 @@ alias la='ls -A'					# all but . and ..
 alias l='ls -CF'
 alias t='tree -L 1'
 alias mkdir='mkdir -v'
+alias nvcfg='vi /home/mqly/.config/nvim/init.vim'
 #
 # Text editor
 alias vi='vim'
