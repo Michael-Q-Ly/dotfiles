@@ -124,4 +124,7 @@ PS1+="\[\033[091m\] \$(parse_git_branch)\n"     # Git Branch
 PS1+="\[\033[m\]\$ "                            # Prompt
 export PS1
 
-wal -R
+# Use the previous pywal theme with quiet flag
+wal -R -q
+# Get system info!
+neofetch
