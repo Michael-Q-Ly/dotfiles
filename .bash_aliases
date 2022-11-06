@@ -45,3 +45,5 @@ alias vim='nvim'
 # Embedded Development
 alias cdpico='cd /run/media/mqly/RPI-RP2'		# Pi Pico mounting dir
 alias picodir='/run/media/mqly/RPI-RP2'			# Pi Pico mounting dir
+alias venvpio='source ~/.platformio/penv/bin/activate'	# Activate platformio core venv
+alias get_idf='. $HOME/MicroDev/ESP/esp-idf/export.sh'	# Script to set up esp-idf environment variables
